@@ -1,0 +1,30 @@
+---
+title: "conflict-evidence"
+format: html
+---
+
+Partners:
+
+Kimberly Murillo
+Briselda Nunez
+
+Screenshots:
+1. A screenshot showing that GitHub reported a merge conflict
+```{r}
+library(knitr)
+knitr::include_graphics("/Users/briseldanunez/Desktop/screenshot1.png")
+```
+  - The merge conflict occurred because we were suggesting two different edits for the same part of the sentence. Initially it went through because we were working with 2 different branches, but once we merged, they were different, causing the conflict.
+  
+  
+2. A screenshot showing the two competing versions in the conflict editor
+```{r}
+knitr::include_graphics("/Users/briseldanunez/Desktop/screenshot2.png")
+```
+  - Git was unable to decide which sentence to keep automatically because they were two different versions but when merging, the branches had difficulty deciding which sentence structure to keep. 
+  
+3. A screenshot showing the final resolved version on main
+```{r}
+knitr::include_graphics("/Users/briseldanunez/Downloads/finalhw7sentence.png")
+```
+  - We combined both of the sentence structures and decided that collaborating is more rewarding then working alone. :))
